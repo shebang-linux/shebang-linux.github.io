@@ -75,7 +75,7 @@ a:hover {
 }
 #masthead #logo {
     float:left;
-    padding:2px;
+    padding:4px;
     width:32px;
     height:32px;
     background:url(images/logo.png) center no-repeat;
@@ -96,7 +96,31 @@ a:hover {
     padding:0;
     margin:0;
 }
+#sitemenu a.sitesearch,
+#sitemenu a.showmenu {
+    border-left-style: solid;
+    min-width: 24px;
+    padding:0;
+    width:24px;
+    height:24px;
+    padding: 10px 16px 7px 8px;
 
+}
+#sitemenu a.sitesearch {
+    background:url(images/search.png) center no-repeat;
+    border:none;
+}
+#sitemenu a.showmenu {
+    background:url(images/menu.png) center no-repeat;
+}
+#sitemenu a.std {
+    display:none;
+
+}
+#mobmenu, #livesearch {
+    display: none;
+    clear:both;
+}
 #mobmenu ul {
     list-style-type: none;
     margin:0;
@@ -118,7 +142,46 @@ a:hover {
 #mobmenu a:hover {
     background:#22242d;
 }
+#livesearch {
+    border-top: 1px solid #0e1315;
+    padding:10px;
+}
+#livesearch h3 {
+    display: none;
+}
+#livesearch fieldset{
+    border:none;
+    margin:0 0 20px 0;
+    background:#191C1E;
+    padding:0px;
+    text-align:center;
+}
 
+#livesearch #s{
+    background:#bfbfbf;
+    color:#21282a;
+    padding:4px 0 4px 6px;
+    border:0px solid #191C1E;
+    font-size:130%;
+    width:99%;
+
+}
+#livesearch #submitButton {
+    display:none;
+}
+#livesearch #submitButton:hover {
+}
+#livesearch .webResult h3 {display: block;}
+#livesearch .webResult {margin-bottom:20px;border-top:1px solid #2E3436;padding-top:20px;}
+#livesearch .webResult .item {padding-left:10px;border-left:2px solid #2E3436;}
+#livesearch .webResult .item:hover{border-left:2px solid #bfbfbf;}
+#livesearch .webResult h3{font-size:100%;margin:0;}
+#livesearch .webResult h3 b{ color:#fff; }
+#livesearch .webResult h3 a{ text-decoration: none;}
+#livesearch .webResult p{ line-height:1.5;padding:10px 0 0 10px;margin:0;font-size:90%;}
+#livesearch .webResult p b{ color:white;}
+#content a.url {color:#bfbfbf;font-size:80%;margin-left:10px;border:0;}
+#content a.url:hover {color:#fff;}
 /* Content ------------------------------------------------------------------ */
 #content {
     padding:20px 0 40px 0;
@@ -273,6 +336,20 @@ a:hover {
         border-left-style: solid;
     }
 
+    #sitemenu a.sitesearch,
+    #sitemenu a.showmenu {
+        border-left-style: solid;
+        min-width: 24px;
+        padding:0;
+        width:24px;
+        height:24px;
+        padding: 10px 16px 7px 8px;
+
+    }
+    #sitemenu a.sitesearch {
+        background:url(images/search.png) center no-repeat;
+        border:none;
+    }
     #sitemenu a.std {
         display: block;
     }
