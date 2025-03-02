@@ -74,6 +74,7 @@ a:hover {
     margin:0;
 }
 #masthead #logo {
+    float:left;
     width:32px;
     height:32px;
     background:url(images/logo.png) center no-repeat;
