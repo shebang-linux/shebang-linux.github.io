@@ -113,6 +113,9 @@ a:hover {
 #sitemenu a.showmenu {
     background:url(images/menu.png) center no-repeat;
 }
+#sitemenu a:hover, #sitemenu a:active, #sitemenu a:focus {
+    color:#fff;
+}
 #sitemenu a.std {
     display:none;
 
