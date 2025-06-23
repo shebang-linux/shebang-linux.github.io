@@ -83,21 +83,17 @@
                   <h4>#!/usr/privacy</h4>
                   <div class="collapse-inner">
                     <p>
-			Mullvad Browser: A privacy-first browser that's hardened and DNS-isolated. Paired with Flatpak, it ensures your browsing stays private and contained.
+			RAM-based folders: /home, /tmp, /var/log operate entirely in RAM — no traces are left behind on disk after reboot.
 
-		    </p>
+                    </p>
                     <p>
-			Encrypted communication: With Quad9 DNS and Tor routing protect you from leaks and surveillance.
+			Ephemeral sessions: Since most of the system lives in RAM, every boot is a fresh environment.
 
-		    </p>
+                    </p>
                     <p>
 			MAC address anonymization: A new MAC address is generated with every connection, prevent device tracking.
 
                     </p>
-                    <p>
-			Hardened /etc/hosts file: Blocks countless intrusive web services at the system level. Less noise, fewer trackers, better privacy.
-
-		    </p>
                     <p>
 			Privacy toggle: Instant control over microphone and camera via the eye icon — hardware-level awareness, no guesswork.
 
@@ -113,23 +109,27 @@
                   <h4>#!/usr/security</h4>
                   <div class="collapse-inner">
                     <p>
-			 Shebang uses runit as the init system; because PID1 must be simple, secure and stable.
+			Shebang uses runit as the init system; because PID1 must be simple, secure and stable.
 
                     </p>
+                    <p>
+			Mullvad Browser: A privacy-first browser that's hardened and DNS-isolated. Paired with Flatpak, it ensures your browsing stays private and contained.
+
+		    </p>
+                    <p>
+			Hardened /etc/hosts file: Blocks countless intrusive web services at the system level. Less noise, fewer trackers, better privacy.
+
+		    </p>
+                    <p>
+			Encrypted communication: With Quad9 DNS and Tor routing protect you from leaks and surveillance.
+
+		    </p>
                     <p>
 			LUKS Disk Encryption: Protect your full disk with strong encryption, keeping your data unreadable without your passphrase.
 
                     </p>
                     <p>
 			System hardening: Secure CPU, GRUB and system-wide configurations are applied automatically for improved protection and performance.
-
-                    </p>
-                    <p>
-			RAM-based folders: /home, /tmp, /var/log operate entirely in RAM — no traces are left behind on disk after reboot.
-
-                    </p>
-                    <p>
-			Ephemeral sessions: Since most of the system lives in RAM, every boot is a fresh environment.
                     </p>
                   </div>
                 </div>
