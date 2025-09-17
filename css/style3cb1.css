@@ -96,95 +96,10 @@ a:hover {
     padding:0;
     margin:0;
 }
-#sitemenu a.sitesearch,
-#sitemenu a.showmenu {
-    border-left-style: solid;
-    min-width: 24px;
-    padding:0;
-    width:24px;
-    height:24px;
-    padding: 10px 16px 7px 8px;
-
-}
-#sitemenu a.sitesearch {
-    background:url(images/search.png) center no-repeat;
-    border:none;
-}
-#sitemenu a.showmenu {
-    background:url(images/menu.png) center no-repeat;
-}
-#sitemenu a:hover, #sitemenu a:active, #sitemenu a:focus {
-    color:#fff;
-}
 #sitemenu a.std {
     display:none;
 
 }
-#mobmenu, #livesearch {
-    display: none;
-    clear:both;
-}
-#mobmenu ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-}
-#mobmenu li {
-    margin:0;
-    padding:0;
-}
-#mobmenu a,#mobmenu a:visited {
-    display:block;
-    text-align: center;
-    border-top: 1px solid #181b1c;
-    padding:10px 0 10px 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-#mobmenu a:hover {
-    background:#22242d;
-}
-#livesearch {
-    border-top: 1px solid #0e1315;
-    padding:10px;
-}
-#livesearch h3 {
-    display: none;
-}
-#livesearch fieldset{
-    border:none;
-    margin:0 0 20px 0;
-    background:#191C1E;
-    padding:0px;
-    text-align:center;
-}
-
-#livesearch #s{
-    background:#bfbfbf;
-    color:#21282a;
-    padding:4px 0 4px 6px;
-    border:0px solid #191C1E;
-    font-size:130%;
-    width:99%;
-
-}
-#livesearch #submitButton {
-    display:none;
-}
-#livesearch #submitButton:hover {
-}
-#livesearch .webResult h3 {display: block;}
-#livesearch .webResult {margin-bottom:20px;border-top:1px solid #2E3436;padding-top:20px;}
-#livesearch .webResult .item {padding-left:10px;border-left:2px solid #2E3436;}
-#livesearch .webResult .item:hover{border-left:2px solid #bfbfbf;}
-#livesearch .webResult h3{font-size:100%;margin:0;}
-#livesearch .webResult h3 b{ color:#fff; }
-#livesearch .webResult h3 a{ text-decoration: none;}
-#livesearch .webResult p{ line-height:1.5;padding:10px 0 0 10px;margin:0;font-size:90%;}
-#livesearch .webResult p b{ color:white;}
-#content a.url {color:#bfbfbf;font-size:80%;margin-left:10px;border:0;}
-#content a.url:hover {color:#fff;}
 /* Content ------------------------------------------------------------------ */
 #content {
     padding:20px 0 40px 0;
@@ -333,82 +248,7 @@ a:hover {
         padding: 12px 16px 7px 8px;
         white-space: nowrap;
         text-decoration: none;
-    }
-
-    #sitemenu a.siteabout {
-        border-left-style: solid;
-    }
-
-    #sitemenu a.sitesearch,
-    #sitemenu a.showmenu {
-        border-left-style: solid;
-        min-width: 24px;
-        padding:0;
-        width:24px;
-        height:24px;
-        padding: 10px 16px 7px 8px;
-
-    }
-    #sitemenu a.sitesearch {
-        background:url(images/search.png) center no-repeat;
-        border:none;
-    }
-    #sitemenu a.std {
-        display: block;
-    }
-    #sitemenu a.showmenu {
-        display: none;
-    }
-    #mobmenu {
-        display: none;
-    }
-    .community_info {
-        display:block;
-        padding:10px;
-        margin-bottom: 14px;
-        overflow: hidden;
-        border: 0px solid #3B4245;
-        position:relative;
-        background: #191C1E url(../forums/style/Air/img/2E3436.html) center repeat-y;
-        -webkit-box-shadow: 0px 2px 4px #151617;
-        -moz-box-shadow: 0px 2px 4px #151617;
-        box-shadow: 0px 2px 4px #151617;
-    }
-    .community_info .irc {
-        float:left;
-        width:40%;
-        padding-left: 60px;
-        background:url(../forums/style/Air/img/irc.html) left center no-repeat;
-        cursor: pointer;
-    }
-    .community_info .linode {
-        float:left;
-        width:40%;
-        padding-left: 60px;
-        background:url(../forums/style/Air/img/linode.html) left center no-repeat;
-        cursor: pointer;
-    }
-    .community_info .twitter {
-        float:right;
-        width:40%;
-        padding-left: 60px;
-        background:url(../forums/style/Air/img/twitter.html) left center no-repeat;
-        cursor: pointer;
-    }
-    .community_info .dreamhost {
-        float:right;
-        width:40%;
-        padding-left: 60px;
-        background:url(../forums/style/Air/img/dreamhost.html) left center no-repeat;
-        cursor: pointer;
-    }
-    .community_info_close {
-        position: absolute;
-        top:10px;
-        right:10px;
-        width:20px;
-        height:20px;
-        background: url(../forums/style/Air/img/close.html) center repeat-y;
+        margin-bottom: 2px;
     }
 
     .foot {
@@ -456,7 +296,6 @@ a:hover {
 .faded {opacity:0.10}
 .nobr { white-space: nowrap; }
 .clearfix {clear:both;}
-.twitter-share-button{margin-right:10px;}
 /* Text selecting ----------------------------------------------------------- */
 /*::-moz-selection{ background: #bfbfbf; color:#191C1E; text-shadow: none; }
 ::selection { background:#bfbfbf; color:#191C1E; text-shadow: none; }*/
