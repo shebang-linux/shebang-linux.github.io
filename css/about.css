@@ -93,11 +93,11 @@
 }
 #content .carousel-control {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 15px;
   width: 40px;
   height: 40px;
-  margin-top: -20px;
+  margin-top: -30px;
   font-size: 60px;
   font-weight: 100;
   line-height: 30px;
@@ -192,7 +192,7 @@ img {
 	border-top: 1px solid #000000;
 }
 .collapse-inner p {
-	margin:0;
+	margin:8px;
 }
 .why {
 	display:none;
@@ -200,7 +200,7 @@ img {
 /* Media Queries for responsive design -------------------------------------- */
 @media only screen and (min-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
-    
+
 }
 
 @media only screen and (min-width: 768px) {
